@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">Hello World, Celeb140Activity!</string>
     <string name="app_name">Celeb140</string>
+    <string name="fame_hungry">Fame Hungry</string>
+    <string name="guest_list">Guest List</string>
+    <string name="papped">Papped</string>
+    <string name="classfied">Classified</string>
 </resources>

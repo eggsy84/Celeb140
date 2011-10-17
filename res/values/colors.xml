@@ -2,5 +2,6 @@
 <resources>
 
 	<color name="title_background">#ff355689</color>
+	<color name="foreground1">#ff355689</color>
     
 </resources>

@@ -3,18 +3,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 			  android:orientation="vertical"
     		  android:layout_width="fill_parent"
-    		  android:layout_height="fill_parent">
+    		  android:layout_height="fill_parent"
+    		  android:padding="6dip">
     		  
-	 <LinearLayout style="@style/TitleBar">
-	 </LinearLayout>
-	 
-	 <LinearLayout android:orientation="vertical"
-    			   android:layout_width="fill_parent"
-    			   android:layout_height="wrap_content"
-    			   android:layout_weight="1"
-    			   android:padding="6dip">
-    			   
-    			   
-    			   
-	</LinearLayout>
+    		  
+   	<LinearLayout android:orientation="horizontal"
+        		  android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content"
+        		  android:layout_weight="1">
+        		  
+        <Button android:id="@+id/home_button_fame_hungry"
+            	style="@style/HomeButton"
+            	android:onClick="onClickFeature"
+            	android:text="@string/fame_hungry"
+            	android:drawableTop="@drawable/fame_hungry_button"/>
+            	
+        <Button android:id="@+id/home_button_guest_list"
+            	style="@style/HomeButton"
+            	android:onClick="onClickFeature"
+            	android:text="@string/guest_list"
+            	android:drawableTop="@drawable/fame_hungry_button"/>
+            
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+        		  android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content"
+        		  android:layout_weight="1">
+
+		<Button android:id="@+id/home_button_papped"
+            	style="@style/HomeButton"
+            	android:onClick="onClickFeature"
+            	android:text="@string/papped"
+            	android:drawableTop="@drawable/fame_hungry_button"/>
+        
+        <Button android:id="@+id/home_button_classified"
+            	style="@style/HomeButton"
+            	android:onClick="onClickFeature"
+            	android:text="@string/classfied"
+            	android:drawableTop="@drawable/fame_hungry_button"/>
+            	
+    </LinearLayout>
+    
 </LinearLayout>
