@@ -31,7 +31,6 @@
                     <sdk>
                         <!-- platform or api level (api level 4 = platform 1.6)-->
                         <platform>7</platform>
-                        <path>/home/eggsy/Documents/Software/Frameworks/android-sdk-linux_x86</path>
                     </sdk>
                     <emulator>
                         <!-- the name of the avd device to use for starting the emulator -->
